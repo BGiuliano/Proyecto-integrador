@@ -10,14 +10,11 @@
 
 ## Roles
 
-### PO (Product Owner)
-El *PO* es el encargado de organizar y maximizar el valor del producto, siendo la persona encargada de gestionar el flujo de valor del producto a traves del *backlog*. Es fundamental su labor como interlocutor con los *stakeholders* y sponsors del proyecto, asi como su faceta de altavoz de las peticiones y requerimientos de los clientes. Si el *PO* tambien juega el rol de representante de negocio, su trabajo tambien aporta valor al producto.
+- *PO (Product Owner)*. Es el encargado de organizar y maximizar el valor del producto, siendo la persona encargada de gestionar el flujo de valor del producto a traves del *backlog*. Es fundamental su labor como interlocutor con los *stakeholders* y sponsors del proyecto, asi como su faceta de altavoz de las peticiones y requerimientos de los clientes. Si el *PO* tambien juega el rol de representante de negocio, su trabajo tambien aporta valor al producto.
 
-### SM (Scrum Master)
-El *Scrum Master* tiene dos funciones principales dentro del marco de trabajo: gestionar el proceso *Scrum* y ayudar a eliminar impedimentos que puedan afectar a la entrega del producto. Además, se encarga de las labores de *mentoring* y formación, *coaching* y de facilitar reuniones y eventos si es necesario.
+- *SM (Scrum Master)*. Tiene dos funciones principales dentro del marco de trabajo: gestionar el proceso *Scrum* y ayudar a eliminar impedimentos que puedan afectar a la entrega del producto. Además, se encarga de las labores de *mentoring* y formación, *coaching* y de facilitar reuniones y eventos si es necesario.
 
-### DT (Developer Team)
-El equipo de desarrollo suele estar formado por entre 3 a 9 profesionales que se encargan de desarrollar el producto, auto-organizándose y auto-gestionándose para conseguir entregar un incremento de software al final del ciclo de desarrollo.
+- *DT (Developer Team)*. El equipo de desarrollo suele estar formado por entre 3 a 9 profesionales que se encargan de desarrollar el producto, auto-organizándose y auto-gestionándose para conseguir entregar un incremento de software al final del ciclo de desarrollo.
 
 ## Artefactos
 Denominamos artefacto a aquellos elementos físicos que se producen como resultado de la aplicación de *Scrum*.
