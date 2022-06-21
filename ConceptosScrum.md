@@ -19,11 +19,11 @@
 ## Artefactos
 Denominamos artefacto a aquellos elementos físicos que se producen como resultado de la aplicación de *Scrum*.
 
-### PB (Product Backlog)
-El *Product Backlog* es un inventario que contiene cualquier tipo de trabajo que haya que hacer en el producto: requerimientos, casos de uso, tareas y dependencias. Es la principal fuente de información sobre el producto en *Scrum*, una lista, en cualquier formato, que contiene todos los requerimientos que necesitamos implementar en el producto.
 
-### SP (Sprint Backlog)
-Se trata de una lista de elementos en los que trabajar durante la etapa de *Sprint*. Estos elementos normalmente se componen de tareas técnicas más pequeñas que permiten conseguir un incremento de software terminado.
+- *PB (Product Backlog)*. Es un inventario que contiene cualquier tipo de trabajo que haya que hacer en el producto: requerimientos, casos de uso, tareas y dependencias. Es la principal fuente de información sobre el producto en *Scrum*, una lista, en cualquier formato, que contiene todos los requerimientos que necesitamos implementar en el producto.
+
+
+- *SP (Sprint Backlog)*. Se trata de una lista de elementos en los que trabajar durante la etapa de *Sprint*. Estos elementos normalmente se componen de tareas técnicas más pequeñas que permiten conseguir un incremento de software terminado.
  
-### Incremento
-Es el resultado del *Sprint*, es la suma de todas las tareas, casos de uso, historias de usuario y cualquier elemento que se haya desarrollado durante el *Sprint* y que será puesto a disposición del usuario final en forma de software, aportando un valor de negocio al producto que se está desarrollando.
+
+- *Incremento*. Es el resultado del *Sprint*, es la suma de todas las tareas, casos de uso, historias de usuario y cualquier elemento que se haya desarrollado durante el *Sprint* y que será puesto a disposición del usuario final en forma de software, aportando un valor de negocio al producto que se está desarrollando.
