@@ -12,6 +12,7 @@ Direccion varchar(50) not null
 
 );
 
+#1 Realice la consulta correspondiente para crear la tabla Perro, teniendo en cuenta sus claves foráneas y primarias.
 CREATE TABLE Perro
 (
 ID_Perro int primary key not null auto_increment ,
@@ -56,4 +57,11 @@ INSERT INTO Historial values
 ('011','2022/07/21', '1','Revisión de control y pipetas','4000'), ('012','2021/06/11', '4','Vacunas','2000'), 
 ('013','2012/08/11', '8','Baño y corte','2000'),('014','2022/08/07', '11','Baño y corte','3500');
 
+#2 Inserte en la tabla correspondiente un nuevo animal (perro) como paciente y el dueño asociado a ese animal.
+INSERT INTO Perro values 
+('012','Nina','2020/06/21','Hembra','39724184');
 
+
+#8 Insertar un nuevo registro en la tabla historial de un perro cuyo ID Perro es igual a 10.
+INSERT INTO Historial values 
+('015','2010/05/05', '10','Revisión de control','250');
