@@ -62,7 +62,17 @@ INSERT INTO Dueno values
 INSERT INTO Perro values 
 ('012','Troya','2020/08/22','Hembra','42106650');
 
-SELECT Perro.Nombre FROM Perro, Dueno WHERE Dueno.Nombre LIKE 'Pedro' AND Perro.DNI_dueno = Dueno.DNI;
+INSERT INTO Historial values 
+('015','2022/08/12', '12','Revisión de control','2500');
 
+SELECT Perro.ID_Perro, Perro.Nombre, MAX(Historial.Fecha) AS 'Ultima fecha'
+FROM Perro, Historial
+WHERE Historial.Perro = Perro.ID_Perro
+GROUP BY Perro.ID_Perro
+ORDER BY MAX(Historial.Fecha) ASC;
+
+DELETE FROM Historial WHERE Perro = 3;
+
+DELETE FROM Perro WHERE ID_Perro = 3;
 
 
