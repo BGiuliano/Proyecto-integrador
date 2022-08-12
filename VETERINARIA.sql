@@ -25,7 +25,7 @@ foreign key(DNI_dueno) references Dueno(DNI)
 
 CREATE TABLE Historial
 (
-ID_Hitorial int primary key not null auto_increment,
+ID_Historial int primary key not null auto_increment,
 Fecha datetime not null,
 Perro int not null,
 Descripcion text(140) not null,
