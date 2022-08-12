@@ -57,7 +57,7 @@ INSERT INTO Historial values
 ('013','2012/08/11', '8','Baño y corte','2000'),('014','2022/08/07', '11','Baño y corte','3500');
 
 
-#Ejercicio N°9--> Cambio de dirección del dueño Maria. Antes "Colon 3425" - Ahora "Libertad 123"
+--Ejercicio N°9--> Cambio de dirección del dueño Maria. Antes "Colon 3425" - Ahora "Libertad 123"
 UPDATE dueno
 SET Direccion = 'Libertad 123'
 where DNI = 4567875;
