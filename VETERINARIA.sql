@@ -56,4 +56,5 @@ INSERT INTO Historial values
 ('011','2022/07/21', '1','Revisión de control y pipetas','4000'), ('012','2021/06/11', '4','Vacunas','2000'), 
 ('013','2012/08/11', '8','Baño y corte','2000'),('014','2022/08/07', '11','Baño y corte','3500');
 
-
+INSERT INTO Dueno values ('26781887','Alfonso','Roberto','541162033759','21 2975');
+INSERT INTO Perro values ('012','Rin','2000/01/12','Macho','26781887');
