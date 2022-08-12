@@ -56,9 +56,17 @@ INSERT INTO Historial values
 ('011','2022/07/21', '1','Revisión de control y pipetas','4000'), ('012','2021/06/11', '4','Vacunas','2000'), 
 ('013','2012/08/11', '8','Baño y corte','2000'),('014','2022/08/07', '11','Baño y corte','3500');
 
+
+-- 2 Inserte en la tabla correspondiente un nuevo animal (perro) como paciente y el dueño asociado a ese animal.
+
 INSERT INTO Dueno values ('41630015','Giuliano','Bartoli','7865897645','Villaguay 78');
 
 INSERT INTO Perro values ('012','Roco','2019/03/21','Macho','41630015');
+
+
+-- 7 Obtener los ingresos percibidos en Julio del 2022.
+
+SELECT SUM(Monto) from Historial where MONTH(Fecha) = 7;
 
 
 
