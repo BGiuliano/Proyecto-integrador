@@ -62,5 +62,7 @@ INSERT INTO Dueno values
 INSERT INTO Perro values 
 ('012','Troya','2020/08/22','Hembra','42106650');
 
+SELECT Perro.Nombre FROM Perro, Dueno WHERE Dueno.Nombre LIKE 'Pedro' AND Perro.DNI_dueno = Dueno.DNI;
+
 
 
