@@ -57,6 +57,9 @@ INSERT INTO Historial values
 ('013','2012/08/11', '8','Baño y corte','2000'),('014','2022/08/07', '11','Baño y corte','3500');
 
 INSERT INTO Perro values 
-('013','Troya','2020/08/22','Hembra','39724184');
-SELECT * FROM Perro;
+('012','Troya','2020/08/22','Hembra','42106650');
+INSERT INTO Dueno values
+('42106650','Pablo','Barrera','03513955503','Sol Naciente 4911');
+
+
 
