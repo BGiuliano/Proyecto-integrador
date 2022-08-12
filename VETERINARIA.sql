@@ -57,4 +57,7 @@ INSERT INTO Historial values
 ('013','2012/08/11', '8','Baño y corte','2000'),('014','2022/08/07', '11','Baño y corte','3500');
 
 INSERT INTO Dueno values ('26781887','Alfonso','Roberto','541162033759','21 2975');
-INSERT INTO Perro values ('012','Rin','2000/01/12','Macho','26781887');
+INSERT INTO Perro values ('012','Rin','2020/01/12','Macho','26781887');
+
+-- 4. Actualice la fecha de nacimiento de algún animal (perro) que usted considere.
+UPDATE Perro SET Fecha_nac = '2019/01/12' WHERE ID_Perro = '012';
