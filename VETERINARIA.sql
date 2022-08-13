@@ -25,11 +25,11 @@ foreign key(DNI_dueno) references Dueno(DNI)
 
 CREATE TABLE Historial
 (
-ID_Hitorial int primary key not null auto_increment,
+ID_Historial int primary key not null auto_increment,
 Fecha datetime not null,
 Perro int not null,
 Descripcion text(140) not null,
-Monto varchar(20) not null,
+Monto decimal(6,2) not null,
 foreign key(Perro) references Perro(ID_Perro)
 
 );
@@ -56,4 +56,8 @@ INSERT INTO Historial values
 ('011','2022/07/21', '1','Revisión de control y pipetas','4000'), ('012','2021/06/11', '4','Vacunas','2000'), 
 ('013','2012/08/11', '8','Baño y corte','2000'),('014','2022/08/07', '11','Baño y corte','3500');
 
+INSERT INTO Dueno values ('44586912','Agustin','Allocco','3765897665','Balcarce 50');
+INSERT INTO Perro values ('012','Yago','2010/06/30','Macho','44586912');
+
+SELECT Perro,Fecha FROM Historial inner join Perro on Historial.Perro=Perro.ID_Perro WHERE Fecha>=2022/01/01
 
