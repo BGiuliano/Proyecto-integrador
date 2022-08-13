@@ -29,7 +29,7 @@ ID_Historial int primary key not null auto_increment,
 Fecha datetime not null,
 Perro int not null,
 Descripcion text(140) not null,
-Monto varchar(20) not null,
+Monto decimal(6,2) not null,
 foreign key(Perro) references Perro(ID_Perro)
 
 );
@@ -48,13 +48,13 @@ INSERT INTO Perro values
 ('011','India','2020/05/05','Hembra','20456723');
 
 INSERT INTO Historial values 
-('001','2000/05/05', '1','Revisión de control','2000'),('002','2020/12/05', '2','Desparasitacion','3000'),
-('003','2010/04/05', '3','Revisión de control y pipetas','4000'),('004','2014/04/05', '4','Revisión de control y pipetas','4000'),
-('005','2022/08/01', '5','Revisión de control y pipetas','4000'), ('006','2022/08/01', '6','Revisión de control y pipetas','4000'),
-('007','2021/06/11', '7','Limpieza de dientes','2000'),('008','2022/08/21', '8','Baño y corte','3500'),
-('009','2022/08/01', '9','Vacunas','1000'),('010','2010/05/12', '10','Baño, corte, revisión de control y pipetas','1500'),
-('011','2022/07/21', '1','Revisión de control y pipetas','4000'), ('012','2021/06/11', '4','Vacunas','2000'), 
-('013','2012/08/11', '8','Baño y corte','2000'),('014','2022/08/07', '11','Baño y corte','3500');
+('001','2000/05/05', '1','Revisión de control',2000),('002','2020/12/05', '2','Desparasitacion',3000),
+('003','2010/04/05', '3','Revisión de control y pipetas',4000),('004','2014/04/05', '4','Revisión de control y pipetas',4000),
+('005','2022/08/01', '5','Revisión de control y pipetas',4000), ('006','2022/08/01', '6','Revisión de control y pipetas',4000),
+('007','2021/06/11', '7','Limpieza de dientes',2000),('008','2022/08/21', '8','Baño y corte',3500),
+('009','2022/08/01', '9','Vacunas',1000),('010','2010/05/12', '10','Baño, corte, revisión de control y pipetas',1500),
+('011','2022/07/21', '1','Revisión de control y pipetas',4000), ('012','2021/06/11', '4','Vacunas',2000), 
+('013','2012/08/11', '8','Baño y corte',2000),('014','2022/08/07', '11','Baño y corte',3500);
 
 INSERT INTO Dueno values ('26781887','Alfonso','Roberto','541162033759','21 2975');
 INSERT INTO Perro values ('012','Rin','2020/01/12','Macho','26781887');
