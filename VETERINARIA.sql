@@ -29,7 +29,7 @@ ID_Historial int primary key not null auto_increment,
 Fecha datetime not null,
 Perro int not null,
 Descripcion text(140) not null,
-Monto varchar(20) not null,
+Monto decimal(6,2) not null,
 foreign key(Perro) references Perro(ID_Perro)
 
 );
