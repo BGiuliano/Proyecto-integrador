@@ -66,7 +66,7 @@ INSERT INTO Perro values ('012','Roco','2019/03/21','Macho','41630015');
 
 -- 7 Obtener los ingresos percibidos en Julio del 2022.
 
-SELECT SUM(Monto) from Historial where MONTH(Fecha) = 7;
+SELECT SUM(Monto) from Historial where MONTH(Fecha) = 7 and YEAR(Fecha) = 2022;
 
 
 
