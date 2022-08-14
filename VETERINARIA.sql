@@ -60,10 +60,10 @@ INSERT INTO Dueno values
 ('42106650','Pablo','Barrera','03513955503','Sol Naciente 4911');
 
 INSERT INTO Perro values 
-('012','Troya','2020/08/22','Hembra','42106650');
+(12,'Troya','2020-08-22','Hembra','42106650');
 
 INSERT INTO Historial values 
-('015','2022/08/12', '12','Revisión de control','2500');
+(15,'2022-08-12', 12,'Revisión de control',2500);
 
 SELECT Perro.ID_Perro, Perro.Nombre, MAX(Historial.Fecha) AS 'Ultima fecha'
 FROM Perro, Historial
