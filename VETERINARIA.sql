@@ -36,17 +36,17 @@ foreign key(Perro) references Perro(ID_Perro)
 );
 
 INSERT INTO Dueno values
-('39724184','Mariquena','Allosa','3765897654','Felix Bogado 234'),('22587645','Marcela','Corin','3765986782','Fco de Haro 235'),
-('42356749','Aldana','Gonzalez','3765896543','Colon 3234'),('20053318','Daniel','Lopez','3765897654','Lavalle 765'),
-('4567875','Maria','Lopez','1123457865','Colon 3425'),('20456723','Pedro','Gomez','2653785432','Brasil 2425') ;
+(39724184,'Mariquena','Allosa','3765897654','Felix Bogado 234'),(22587645,'Marcela','Corin','3765986782','Fco de Haro 235'),
+(42356749,'Aldana','Gonzalez','3765896543','Colon 3234'),(20053318,'Daniel','Lopez','3765897654','Lavalle 765'),
+(4567875,'Maria','Lopez','1123457865','Colon 3425'),(20456723,'Pedro','Gomez','2653785432','Brasil 2425') ;
 
 INSERT INTO Perro(Nombre, Fecha_nac, Sexo, DNI_dueno) values 
-('Nino','2000-05-21','Macho','39724184'),('Kob','2004-12-13','Macho','22587645'),
-('Lito','2005-12-25','Macho','42356749'),('Frida','2011-11-01','Hembra','20053318'),
-('Lola','2015-12-01','Hembra','4567875'),('toby','2000-12-05','Macho','39724184'),
-('Koby','2010-04-15','Macho','22587645'),('Litio','2018-07-05','Macho','42356749'),
-('Lila','2022-04-15','Hembra','20053318'),('Indigo','2000-06-05','Hembra','4567875'),
-('India','2020-05-05','Hembra','20456723');
+('Nino','2000-05-21','Macho',39724184),('Kob','2004-12-13','Macho',22587645),
+('Lito','2005-12-25','Macho',42356749),('Frida','2011-11-01','Hembra',20053318),
+('Lola','2015-12-01','Hembra',4567875),('toby','2000-12-05','Macho',39724184),
+('Koby','2010-04-15','Macho',22587645),('Litio','2018-07-05','Macho',42356749),
+('Lila','2022-04-15','Hembra',20053318),('Indigo','2000-06-05','Hembra',4567875),
+('India','2020-05-05','Hembra',20456723);
 
 INSERT INTO Historial(Fecha, Perro, Descripcion, Monto) values 
 ('2000-05-05', 1,'Revisión de control',2000),('2020-12-05', 2,'Desparasitacion',3000),
@@ -59,7 +59,7 @@ INSERT INTO Historial(Fecha, Perro, Descripcion, Monto) values
 
 -- 2 Inserte en la tabla correspondiente un nuevo animal (perro) como paciente y el dueño asociado a ese animal.
 INSERT INTO Perro(Nombre, Fecha_nac, Sexo, DNI_dueno) values 
-('Nina','2020-06-21','Hembra','39724184');
+('Nina','2020-06-21','Hembra',39724184);
 
 
 -- 8 Insertar un nuevo registro en la tabla historial de un perro cuyo ID Perro es igual a 10.
